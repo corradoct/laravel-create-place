@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/students', 'StudentController@index')->name('students');
+
+Route::get('/students-handlebars', 'StudentController@handlebars')->name('ApiStudentsHandlebars');

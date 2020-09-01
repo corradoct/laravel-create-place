@@ -11,4 +11,8 @@ class StudentController extends Controller
     $students = Student::all();
     return view('students', compact('students'));
   }
+
+  public function handlebars() {
+      return view('studentshandlebars');
+  }
 }
